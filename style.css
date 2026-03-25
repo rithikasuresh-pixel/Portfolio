@@ -1,6 +1,28 @@
 body {
+  margin: 0;
   font-family: Arial;
-  text-align: center;
-  background: black;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
   color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
 }
